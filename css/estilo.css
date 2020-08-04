@@ -1,0 +1,78 @@
+body{
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+#carouselSlide .carousel-caption{
+    top: 63%;
+}
+
+.main-btn{
+    background-color: #d68bd0;
+    color: rgb(94, 8, 68);
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #d68bd0;
+    background-color: transparent;
+    border-color: #d68bd0;
+}
+
+
+.main-title{
+    color: rgb(231, 231, 231);
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after{
+    content: "";
+    border-top: 2px solid rgb(250, 175, 231);
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title{
+    font-size: 20px;
+    color: rgb(231, 231, 231);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#paragrafo{
+    color: rgb(231, 231, 231);
+    font-size: 18px;
+}
+
+.aument-transi:hover{
+    transform: scale(1.06);
+    transition: 0.4s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 10px 15px;
+}
+
+.aument-transi:hover::before{
+    opacity: 5;
+}
+
+
+
+
+
+
